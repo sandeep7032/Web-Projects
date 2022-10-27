@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./../Calculator/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Trirong"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Trirong&effect=emboss"
+    />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <input
+        type="text"
+        class="display font-effect-emboss"
+        name="txt"
+        readonly
+      />
+      <span class="num clear" onclick="remove()">C</span>
+      <span class="num divide" onclick="num('/')">/</span>
+      <span class="num multiply" onclick="num('*')">*</span>
+      <span class="num number" onclick="num(7)">7</span>
+      <span class="num number" onclick="num(8)">8</span>
+      <span class="num number" onclick="num(9)">9</span>
+      <span class="num minus" onclick="num('-')">-</span>
+      <span class="num number" onclick="num(4)">4</span>
+      <span class="num number" onclick="num(5)">5</span>
+      <span class="num number" onclick="num(6)">6</span>
+      <span class="num plus" onclick="num('+')">+</span>
+      <span class="num number" onclick="num(1)">1</span>
+      <span class="num number" onclick="num(2)">2</span>
+      <span class="num number" onclick="num(3)">3</span>
+      <span class="num equal" onclick="equal()">=</span>
+      <span class="num number" onclick="num('00')">00</span>
+      <span class="num number" onclick="num(0)">0</span>
+      <span class="num number" onclick="num('.')">.</span>
+    </div>
+  </body>
+</html>
