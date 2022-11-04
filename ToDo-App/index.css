@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  margin-top: 15vh;
+  background: skyblue;
+  font-family: "Trirong", serif;
+  font-size: 30px;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+button {
+  border-radius: 5px;
+  background-color: rgb(110, 217, 110);
+  color: black;
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+input {
+  border-radius: 5px;
+  height: 40px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 25px;
+}
+button:active {
+  background-color: green;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 25px;
+}
